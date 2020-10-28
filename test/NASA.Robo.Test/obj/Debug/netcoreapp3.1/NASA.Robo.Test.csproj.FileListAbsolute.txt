@@ -1,0 +1,4 @@
+d:\Estudos\NASA\test\NASA.Robo.Test\obj\Debug\netcoreapp3.1\NASA.Robo.Test.csprojAssemblyReference.cache
+d:\Estudos\NASA\test\NASA.Robo.Test\obj\Debug\netcoreapp3.1\NASA.Robo.Test.AssemblyInfoInputs.cache
+d:\Estudos\NASA\test\NASA.Robo.Test\obj\Debug\netcoreapp3.1\NASA.Robo.Test.AssemblyInfo.cs
+d:\Estudos\NASA\test\NASA.Robo.Test\obj\Debug\netcoreapp3.1\NASA.Robo.Test.csproj.CoreCompileInputs.cache
