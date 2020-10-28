@@ -1,11 +1,11 @@
-#DESAFIO ROBO NASA
+# DESAFIO ROBO NASA
 
 
-##Objetivo:
+## Objetivo:
 O objetivo desse desafio é demonstrar sua experiência e conhecimento como
 desenvolvedor, assim saberemos como você pensa e como resolve problemas na vida real.
 
-##O Problema:
+## O Problema:
 Um time de robôs devem ser colocados pela NASA para explorar um terreno em Marte.
 Esse terreno, que é retangular, precisa ser navegado pelos robôs de tal forma que suas
 câmeras acopladas possam obter uma visão completa da região, enviando essas imagens
@@ -29,7 +29,7 @@ Robô e saber onde ele se encontra. Os engenheiros irão rodar testes no seu sof
 garantir que ele se comporta da forma esperada, antes de enviar o Robô para marte.
 
 
-##Requisitos do desafio:
+## Requisitos do desafio:
 O terreno deverá ser iniciado com 5x5 posições;
 O robô inicia na coordenada (0,0,N);
 Deverá ser possível enviar um comando para o Robô que me retorne a posição final dele;
@@ -53,7 +53,7 @@ curl -s --request POST
 (http://localhost:8080/rest/mars/MMMMMMMMMMMMMMMMMMMMMMMM)
 Saída esperada: 400 Bad Request
 
-##Requisitos técnicos:
+## Requisitos técnicos:
 Deve ter teste unitários
 O desafio deve ser entregue escrito utilizando Java, .NET, Node.js ou Php;
 A interface de comunicação com o robô é REST;
