@@ -62,12 +62,12 @@ Saída esperada: 400 Bad Request
 
 
 ## Requisitos técnicos:
-Deve ter teste unitários
-O desafio deve ser entregue escrito utilizando Java, .NET, Node.js ou Php;
-A interface de comunicação com o robô é REST;
+* Deve ter teste unitários
+* O desafio deve ser entregue escrito utilizando Java, .NET, Node.js ou Php;
+* A interface de comunicação com o robô é REST;
 
 ## O que vamos observar ​:
-Qualidade no código
-Clean code
-Padrões de projeto
-Simplicidade
+* Qualidade no código
+* Clean code
+* Padrões de projeto
+* Simplicidade
