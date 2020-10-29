@@ -23,4 +23,4 @@ D:\Estudos\NASA\src\NASA.Robo\obj\Debug\netcoreapp3.1\staticwebassets\NASA.Robo.
 D:\Estudos\NASA\src\NASA.Robo\obj\Debug\netcoreapp3.1\NASA.Robo.dll
 D:\Estudos\NASA\src\NASA.Robo\obj\Debug\netcoreapp3.1\NASA.Robo.pdb
 D:\Estudos\NASA\src\NASA.Robo\obj\Debug\netcoreapp3.1\NASA.Robo.genruntimeconfig.cache
-d:\Estudos\NASA\src\NASA.Robo\obj\Debug\netcoreapp3.1\NASA.Robo.csprojAssemblyReference.cache
+D:\Estudos\NASA\src\NASA.Robo\obj\Debug\netcoreapp3.1\NASA.Robo.csprojAssemblyReference.cache

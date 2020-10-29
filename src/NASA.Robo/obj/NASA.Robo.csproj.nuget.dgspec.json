@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Estudos\\NASA\\src\\NASA.Robo\\NASA.Robo.csproj": {}
+    "D:\\Estudos\\NASA\\src\\NASA.Robo\\NASA.Robo.csproj": {}
   },
   "projects": {
-    "d:\\Estudos\\NASA\\src\\NASA.Robo\\NASA.Robo.csproj": {
+    "D:\\Estudos\\NASA\\src\\NASA.Robo\\NASA.Robo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Estudos\\NASA\\src\\NASA.Robo\\NASA.Robo.csproj",
+        "projectUniqueName": "D:\\Estudos\\NASA\\src\\NASA.Robo\\NASA.Robo.csproj",
         "projectName": "NASA.Robo",
-        "projectPath": "d:\\Estudos\\NASA\\src\\NASA.Robo\\NASA.Robo.csproj",
+        "projectPath": "D:\\Estudos\\NASA\\src\\NASA.Robo\\NASA.Robo.csproj",
         "packagesPath": "C:\\Users\\sdph2\\.nuget\\packages\\",
-        "outputPath": "d:\\Estudos\\NASA\\src\\NASA.Robo\\obj\\",
+        "outputPath": "D:\\Estudos\\NASA\\src\\NASA.Robo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

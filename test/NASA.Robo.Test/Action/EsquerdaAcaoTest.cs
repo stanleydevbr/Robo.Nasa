@@ -1,19 +1,21 @@
 ﻿using NASA.Robo.Action;
 using NASA.Robo.Domain;
 using NASA.Robo.Model;
+using System;
+using System.Collections.Generic;
+using System.Text;
 using Xunit;
 
 namespace NASA.Robo.Test.Action
 {
-
-    public class DireitaAcaoTest
+    public class EsquerdaAcaoTest
     {
-        private readonly DireitaAcao _acaoDireita;
+        private readonly EsquerdaAcao _acaoEsquerda;
         private readonly Posicao _posicao;
-        public DireitaAcaoTest()
+        public EsquerdaAcaoTest()
         {
-            _acaoDireita = new DireitaAcao();
-             _posicao = new Posicao();
+            _acaoEsquerda = new EsquerdaAcao();
+            _posicao = new Posicao();
         }
 
         private Robot CreateRobot(Posicao posicao)
@@ -23,47 +25,47 @@ namespace NASA.Robo.Test.Action
         }
 
         [Fact]
-        public void Acao_Direita_EastToNorthTest()
+        public void Acao_Esquerda_EastToNorthTest()
         {
             //Ambiente
-            var xpto = CreateRobot(_posicao.getNORTH());
+            var xpto = CreateRobot(_posicao.getSOUTH());
             //Ação
-            _acaoDireita.Aplicar(ref xpto);
+            _acaoEsquerda.Aplicar(ref xpto);
             //Acertos
             Assert.Equal(_posicao.getEAST(), xpto.Posicao);
         }
 
         [Fact]
-        public void Acao_Direita_WestToSouthTest()
+        public void Acao_Esquerda_EastToSouthTest()
         {
             //Ambiente
             var xpto = CreateRobot(_posicao.getSOUTH());
             //Ação
-            _acaoDireita.Aplicar(ref xpto);
+            _acaoEsquerda.Aplicar(ref xpto);
             //Acertos
-            Assert.Equal(_posicao.getWEST(), xpto.Posicao);
+            Assert.Equal(_posicao.getEAST(), xpto.Posicao);
         }
 
         [Fact]
-        public void Acao_Direita_SouthToEastTest()
+        public void Acao_Esquerda_NorthToEasthTest()
         {
             //Ambiente
             var xpto = CreateRobot(_posicao.getEAST());
             //Ação
-            _acaoDireita.Aplicar(ref xpto);
+            _acaoEsquerda.Aplicar(ref xpto);
             //Acertos
-            Assert.Equal(_posicao.getSOUTH(), xpto.Posicao);
+            Assert.Equal(_posicao.getNORTH(), xpto.Posicao);
         }
 
         [Fact]
-        public void Acao_Direita_NorthToWestTest()
+        public void Acao_Esquerda_SouthToWeastTest()
         {
             //Ambiente
             var xpto = CreateRobot(_posicao.getWEST());
             //Ação
-            _acaoDireita.Aplicar(ref xpto);
+            _acaoEsquerda.Aplicar(ref xpto);
             //Acertos
-            Assert.Equal(_posicao.getNORTH(), xpto.Posicao);
+            Assert.Equal(_posicao.getSOUTH(), xpto.Posicao);
         }
 
     }

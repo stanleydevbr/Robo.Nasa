@@ -4,23 +4,13 @@ namespace NASA.Robo.Domain
 {
     public class Posicao: Enumerador
     {
-        public static Posicao NORTH = new Posicao ("N", 0, 1);
-        public static Posicao EAST = new Posicao("E", 1, 0);
-        public static Posicao SOUTH = new Posicao("S", 0, -1);
-        public static Posicao WEST = new Posicao("W", -1, 0);
-
-        public string Label { get; set; }
-
-        private static readonly List<Posicao> listaPosicao = new List<Posicao>()
-        {
-            Posicao.NORTH,
-            Posicao.EAST,
-            Posicao.SOUTH,
-            Posicao.WEST
-        };
+        private static Posicao NORTH = new Posicao ("N", 0, 1);
+        private static Posicao EAST = new Posicao("E", 1, 0);
+        private static Posicao SOUTH = new Posicao("S", 0, -1);
+        private static Posicao WEST = new Posicao("W", -1, 0);
 
         public Posicao()
-            :base(0, 0)
+            :base("",0, 0)
         {
             this.IncrementaX = NORTH.IncrementaX;
             this.IncrementaY = NORTH.IncrementaY;
@@ -28,15 +18,10 @@ namespace NASA.Robo.Domain
         }
 
         public Posicao(string label, int incrementaX, int incrementaY)
-            :base(incrementaX, incrementaY)
+            :base(label, incrementaX, incrementaY)
         {
-            Label = label;
         }
 
-        public static List<Posicao> ListaPosicao()
-        {
-            return listaPosicao;
-        }
         public Posicao GetEsquerda()
         {
             return Label switch
@@ -57,18 +42,26 @@ namespace NASA.Robo.Domain
                 _ => NORTH,
             };
         }
+
+        public Posicao getEAST() => EAST;
+        public Posicao getWEST() => WEST;
+        public Posicao getSOUTH() => SOUTH;
+        public Posicao getNORTH() => NORTH;
+
     }
 
     public abstract class Enumerador
     {
 
-        public int IncrementaX { get; set; }
-        public int IncrementaY { get; set; }
+        public int IncrementaX { get;  set; }
+        public int IncrementaY { get;  set; }
+        public string Label { get; set; }
 
-        public Enumerador( int incrementaX, int incrementaY)
+        public Enumerador( string label, int incrementaX, int incrementaY)
         {
             this.IncrementaX = incrementaX;
             this.IncrementaY = incrementaY;
+            this.Label = label;
             
         }
 

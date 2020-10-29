@@ -3670,11 +3670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Estudos\\NASA\\test\\NASA.Robo.Test\\NASA.Robo.Test.csproj",
+      "projectUniqueName": "D:\\Estudos\\NASA\\test\\NASA.Robo.Test\\NASA.Robo.Test.csproj",
       "projectName": "NASA.Robo.Test",
-      "projectPath": "d:\\Estudos\\NASA\\test\\NASA.Robo.Test\\NASA.Robo.Test.csproj",
+      "projectPath": "D:\\Estudos\\NASA\\test\\NASA.Robo.Test\\NASA.Robo.Test.csproj",
       "packagesPath": "C:\\Users\\sdph2\\.nuget\\packages\\",
-      "outputPath": "d:\\Estudos\\NASA\\test\\NASA.Robo.Test\\obj\\",
+      "outputPath": "D:\\Estudos\\NASA\\test\\NASA.Robo.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3693,8 +3693,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "d:\\Estudos\\NASA\\src\\NASA.Robo\\NASA.Robo.csproj": {
-              "projectPath": "d:\\Estudos\\NASA\\src\\NASA.Robo\\NASA.Robo.csproj"
+            "D:\\Estudos\\NASA\\src\\NASA.Robo\\NASA.Robo.csproj": {
+              "projectPath": "D:\\Estudos\\NASA\\src\\NASA.Robo\\NASA.Robo.csproj"
             }
           }
         }
@@ -3736,6 +3736,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
